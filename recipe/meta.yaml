@@ -1,5 +1,5 @@
 {% set name = "bmi-geotiff" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 12e136f89ad19b8b66ef3ee0b4f0fdd36caead580c81967e5b45efbc2ee785a9
+  sha256: 4b29f54347aa3b2217ddb001385becb7de568ce5e78bbcdd4d76759bfd2d5d11
 
 build:
   number: 0
