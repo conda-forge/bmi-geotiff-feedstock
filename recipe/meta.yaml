@@ -1,5 +1,5 @@
 {% set name = "bmi-geotiff" %}
-{% set version = "0.2.3" %}
+{% set version = "0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4b29f54347aa3b2217ddb001385becb7de568ce5e78bbcdd4d76759bfd2d5d11
+  sha256: 68a6820ded428ebc47de368b37fe5e19428a978b33644ff64d1e8df64f17c55c
 
 build:
   number: 0
@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
   run:
-    - python >=3.6
+    - python >=3.7
     - numpy
-    - xarray
+    - rioxarray
     - rasterio
     - pyyaml
     - bmipy
@@ -43,7 +43,7 @@ about:
     Access data (and metadata) from a GeoTIFF file through an API or a BMI
   description: |
     bmi-geotiff is a Python library that allows a user Basic Model Interface
-    (BMI) access to data and metadata in GeoTIFF files through *xarray* and
+    (BMI) access to data and metadata in GeoTIFF files through *rioxarray* and
     *rasterio*.
   doc_url: https://bmi-geotiff.readthedocs.io/
   dev_url: https://github.com/csdms/bmi-geotiff
