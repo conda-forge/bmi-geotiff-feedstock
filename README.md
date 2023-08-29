@@ -1,11 +1,11 @@
-About bmi-geotiff
-=================
+About bmi-geotiff-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bmi-geotiff-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/csdms/bmi-geotiff
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bmi-geotiff-feedstock/blob/main/LICENSE.txt)
 
 Summary: Access data (and metadata) from a GeoTIFF file through an API or a BMI
 
@@ -15,7 +15,7 @@ Development: https://github.com/csdms/bmi-geotiff
 Documentation: https://bmi-geotiff.readthedocs.io/
 
 bmi-geotiff is a Python library that allows a user Basic Model Interface
-(BMI) access to data and metadata in GeoTIFF files through *xarray* and
+(BMI) access to data and metadata in GeoTIFF files through *rioxarray* and
 *rasterio*.
 
 
