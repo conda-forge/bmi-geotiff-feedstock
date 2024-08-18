@@ -35,7 +35,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/csdms/bmi-geotiff
+  home: https://csdms.colorado.edu/wiki/DataComponents
   license: MIT
   license_family: MIT
   license_file: LICENSE.md
