@@ -1,5 +1,5 @@
 {% set name = "bmi-geotiff" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 # {% set python_min = python_min|default("3.10") %}
 {% set python_min = "3.10" %}
 
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 2e2012ddbe3244bde370114c9fce7ad116e53310315f216d494f070adddf6d41
+  sha256: c274544b562fcdf0a51c79bae32b4d31ef582c2cd18ae6b9e83793ac7e062849
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
